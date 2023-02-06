@@ -5,6 +5,17 @@ function getDAta () {
         .then(res => res.json())
         .then(data => {
             console.log( data)
+            getCards(data)
         })
 }
 getDAta()
+
+function getCards (data){
+    main.innerHTML = `
+    <div class="box">
+        
+    </div>
+
+    
+    `
+}
