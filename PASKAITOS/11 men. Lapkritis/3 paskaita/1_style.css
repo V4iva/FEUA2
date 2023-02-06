@@ -1,0 +1,30 @@
+/*** BORDERIAI ***/
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: #B2B2B2;
+    /*border: 10px inset mediumseagreen;*/
+    border: 3px  mediumseagreen;
+    border-style: dotted dashed solid double;
+
+    border-radius: 100px; /*** galima uzdeti koki nori kampu apvalinima(dydziu) ***/
+    border-radius: 50%; /*** visada kad ir kokio dydzio butu visada bus apvalintas ***/
+}
+
+/*** BOX SIZINGAS ***/
+.box1{
+    display: inline-block;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    background-color: #8D9EFF;
+    box-sizing: content-box; /*** padaro taip kad esantis viduje objektas nevirsitu pirminio box'o ribu(bet tik tada kai nera padding'o) ***/
+}
+.item{
+    width: 100%;
+    border: 1px solid red;
+    padding: 20px;
+    box-sizing: border-box; /*** padaro taip kad esantis viduje objektas nevirsitu pirminio box'o ribu(net kai yra padding'as) ***/
+}
+

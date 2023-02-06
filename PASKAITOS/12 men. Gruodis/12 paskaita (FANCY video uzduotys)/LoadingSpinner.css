@@ -1,0 +1,53 @@
+.loading{
+    display: flex;
+    justify-content: center;
+}
+
+.loading--full-height{
+    align-items: center;
+    height: 100%;
+}
+.loading::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    border: 10px solid #dddddd;
+    border-top-color: #009579;
+    /*border-bottom-color: #009579;*/
+    border-radius: 50%;
+    animation: loading 1s ease infinite;   /*** linear - suksis nesustojant; ease - sukasi su tam tikrais laiko intervalu sustojimais ***/
+}
+@keyframes loading {
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+
+/****** next style ******/
+
+.loading2{
+    display: flex;
+    justify-content: center;
+}
+
+.loading2--full-height{
+    align-items: center;
+    height: 100%;
+}
+.loading2::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background: #009579;
+    opacity: 0.5;
+    border-radius: 50%;
+    animation: loading2 0.3s ease infinite alternate;   /*** linear - suksis nesustojant; ease - sukasi su tam tikrais laiko intervalu sustojimais ***/
+}
+@keyframes loading2 {
+    to{
+        opacity: 1;
+        transform: scale(1.75);
+
+    }
+}

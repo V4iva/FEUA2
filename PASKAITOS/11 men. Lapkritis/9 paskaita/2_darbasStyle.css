@@ -1,0 +1,204 @@
+/*------------------- GREITOSIOS FORMULES -----------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.gap{
+    gap: 10px 20px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+.flex-d-column{
+    flex-direction: column;
+}
+.flex-d-row{
+    flex-direction: row;
+}
+
+/*** Juustify Content ***/
+
+.j-center{
+    justify-content: center;
+}
+.j-right{
+    justify-content: right;
+}
+.j-spc-btw{
+    justify-content: space-between;
+}
+.j-spc-around{
+    justify-content: space-around;
+}
+.j-spc-evenly{
+    justify-content: space-evenly;
+}
+/*** Flex (Grow) vietos paskirstymas ***/
+
+.f-1{
+    flex: 1;
+}
+.f-2{
+    flex: 2;
+}
+.f-3{
+    flex: 3;
+}
+.f-4{
+    flex: 4;
+}
+.f-5{
+    flex: 5;
+}
+.f-6{
+    flex: 6;
+}
+
+
+.a-center{
+    align-items: center;
+}
+.a-end{
+    align-items: end;
+}
+.a-start{
+    align-items: start;
+}
+
+
+.p10{
+    padding: 10px;
+}
+.border{
+    border: 1px solid black;
+}
+.mar-20{
+    margin: 20px;
+}
+.mar-left-20{
+    margin-left: 20px;
+}
+.mar-right-20{
+    margin-right: 20px;
+}
+.mar-top-20{
+    margin-top: 20px;
+}
+.mar{
+    margin: 20px 20px 0 20px;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+
+
+.txt-center{
+    text-align: center;
+}
+/*** Order (poziciju keitimas) ***/
+
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+
+/*** Small ekranas ***/
+
+
+/*-------------------------------------------------------------------------*/
+
+body{
+    height: 900px;
+}
+
+.box1{
+    background-color: #4FA095;
+}
+.box1 div{
+    width: 70%;
+    height: 20%;
+}
+.box2{
+    background-color: #f6ef7f;
+}
+.box2 div{
+    height: 80%;
+    width: 20%;
+}
+.box3{
+    background-color: #81C6E8;
+}
+
+.one{
+    height: 80%;
+    width: 20%;
+}
+.two{
+    width: 50%;
+    height: 80%;
+}
+.two div{
+    height: 20%;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        display: flex;
+        flex-direction: row;
+        order: 2;
+    }
+    .box1 div{
+        height: 70%;
+    }
+    .box2{
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        gap: 10px 20px;
+    }
+    .box2 div{
+        width: 80%;
+
+    }
+    .box3{
+        gap: 10px 20px;
+        flex-direction: column;
+    }
+    .one{
+        width: 80%;
+    }
+    .two{
+        flex-direction: row;
+        width: 100%;
+    }
+    .two div{
+        height: 70%;
+    }
+
+
+
+    .order-2{
+        order: 2;
+    }
+    .order-3{
+        order: 3;
+    }
+}

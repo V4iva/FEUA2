@@ -1,0 +1,60 @@
+/*** HOVERIAI ***/
+/*** efektas kuris uzvedus pelyte padaro daikto efekta ***/
+
+.hello{
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    background-color: #B2B2B2;
+    height: 50px;
+    transition: 1s; /*** padaro taip kad ne iskarto pasikeistu o keistusi palengva jis rasomas tik ant pradinio elemento ne ant "hover" ***/
+}
+
+.hello:hover{
+    background-color: #FEBE8C;
+    height: 300px;
+}
+
+/*** GRADIENT ***/
+
+.gradient{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,70,200,1) 0%, rgba(55,231,64,1) 100%);
+    transition: 3s;
+}
+.gradient2{
+    width: 70%;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,69,251,1) 0%, rgba(90,246,89,1) 0%, rgba(217,255,38,1) 51%, rgba(255,130,134,1) 100%, rgba(192,0,255,1) 100%);
+    transition: 3s;
+}
+.gradient3 {
+    width: 50%;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 69, 251, 1) 0%, rgba(90, 246, 89, 1) 27%, rgba(255, 130, 134, 1) 69%, rgba(192, 0, 255, 1) 100%);
+    transition: 3s;
+}
+/*div:hover{*/
+/*    height: 300px;*/
+/*}*/
+
+/*** IMG ON BACKGROUND ***/
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-image: url("https://assets.reedpopcdn.com/assassins-creed-valhalla-narrative-director-responds-to-claim-eivor-was-originally-intended-to-be-exclusively-a-woman-1596626651546.jpg/BROK/thumbnail/1600x900/quality/100/assassins-creed-valhalla-narrative-director-responds-to-claim-eivor-was-originally-intended-to-be-exclusively-a-woman-1596626651546.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*** OVERFLOW ***/
+
+.container{
+    background-color: #B2B2B2;
+    width: 200px;
+    height: 300px;
+    overflow: hidden; /*** paslepia objektus kad jie neiseitu is ribu jei auto tada atsiranda skrilinimo funkcija ***/
+
+}

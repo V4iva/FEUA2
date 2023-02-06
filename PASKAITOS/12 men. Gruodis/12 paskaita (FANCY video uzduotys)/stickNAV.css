@@ -1,0 +1,55 @@
+.main-nav{
+    /*position: fixed;*/ /*** Navbaras visada prisikabines prie virsaus ir skrolinant juda ***/
+    position: sticky; /*** jei yra nuotrauka virs navbaro tai kai mes nuskroliname per visa nuotrauka navbaras prisiklijuoja prie virsaus ir skrolina kartu ***/
+    top: 0;
+}
+.content{
+    margin: 30px;
+}
+
+
+/*** LIST all components sticky to top ***/
+
+.list-header{
+    position: sticky;
+    position: -webkit-sticky;
+    /*** turetu buti ir daugiau "sticky" elementu (-moz, -ms, -o) ***/
+    top: 0;
+}
+
+@supports (position: sticky) {   /*** reikia toki det jei brausveriai nesuportina bet tada ant normalaus rekia det position:relative **/
+    .list-header{
+        position: sticky;
+        top: 0;
+    }
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-large{
+    background-image: url("../../../img/mustang_monster-wallpaper-1600x900.jpg");
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+}
+.main-nav{
+    background-color: #1c1c1c;
+    color: #3A8891;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+.list-header{
+    background-color: #1c1c1c;
+    padding: 10px;
+    color: #3A8891;
+}
+.list-content{
+    padding: 10px;
+}

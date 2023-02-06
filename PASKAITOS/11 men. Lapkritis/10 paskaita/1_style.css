@@ -1,0 +1,266 @@
+/*------------------- GREITOSIOS FORMULES -----------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.gap{
+    gap: 10px 20px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+.flex-d-column{
+    flex-direction: column;
+}
+.flex-d-row{
+    flex-direction: row;
+}
+
+/*** Juustify Content ***/
+
+.j-center{
+    justify-content: center;
+}
+.j-right{
+    justify-content: right;
+}
+.j-left{
+    justify-content: left;
+}
+.j-spc-btw{
+    justify-content: space-between;
+}
+.j-spc-around{
+    justify-content: space-around;
+}
+.j-spc-evenly{
+    justify-content: space-evenly;
+}
+/*** Flex (Grow) vietos paskirstymas ***/
+
+.f-1{
+    flex: 1;
+}
+.f-2{
+    flex: 2;
+}
+.f-3{
+    flex: 3;
+}
+.f-4{
+    flex: 4;
+}
+.f-5{
+    flex: 5;
+}
+.f-6{
+    flex: 6;
+}
+
+
+.a-center{
+    align-items: center;
+}
+.a-end{
+    align-items: end;
+}
+.a-start{
+    align-items: start;
+}
+
+
+.p10{
+    padding: 10px;
+}
+.border{
+    border: 1px solid black;
+}
+.mar-20{
+    margin: 20px;
+}
+.mar-left-20{
+    margin-left: 20px;
+}
+.mar-right-20{
+    margin-right: 20px;
+}
+.mar-top-20{
+    margin-top: 20px;
+}
+.mar{
+    margin: 20px 20px 0 20px;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+
+
+.txt-center{
+    text-align: center;
+}
+/*** Order (poziciju keitimas) ***/
+
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+
+/*** Small ekranas ***/
+
+
+/*-------------------------------------------------------------------------*/
+
+
+/*** MAZAS ***/
+@media only screen and (max-width: 576px){
+    body{
+        background-color: #3A8891;
+        height: 900px;
+
+    }
+    .box{
+        width: 150px;
+        height: 150px;
+    }
+    .hiden{
+        display: block;
+    }
+    .container{
+        width: 100%;
+        height: 50%;
+    }
+    .hiden-sm{
+        display: none;
+    }
+    .d-flex-sm{
+        display: flex;
+    }
+    .gap-sm{
+        gap: 10px 20px;
+    }
+    .flex-d-column-sm{
+        flex-direction: column;
+    }
+    .f-1-sm{
+        flex: 1;
+    }
+    .f-2-sm{
+        flex: 2;
+    }
+    .f-3-sm{
+        flex: 3;
+    }
+    .f-4-sm{
+        flex: 4;
+    }
+    .j-center-sm{
+        justify-content: center;
+    }
+    .j-spc-btw-sm{
+        justify-content: space-between;
+    }
+    .j-spc-around-sm{
+        justify-content: space-around;
+    }
+    .j-spc-evenly-sm{
+        justify-content: space-evenly;
+    }
+    .a-center-sm{
+        align-items: center;
+    }
+    .order-2-lr{
+        order: 2;
+    }
+
+}
+
+/*** VIDUTINIS ***/
+@media (min-width: 576px) and (max-width: 768px) {
+    body{
+        background-color: #3C4048;
+        height: 900px;
+        border: 1px solid black;
+    }
+    .container{
+        height: 50%;
+    }
+    .hiden{
+        display: none;
+    }
+    .box{
+        width: 250px;
+        height: 150px;
+    }
+    .order-2-md{
+        order: 2;
+    }
+    .gap-md{
+        gap: 10px 20px;
+    }
+    .d-flex-md{
+        display: flex;
+    }
+    .flex-d-column-md{
+        flex-direction: column;
+    }
+}
+
+/*** DIDELIS ***/
+@media only screen and (min-width: 768px){
+    .box{
+        width: 250px;
+        height: 150px;
+    }
+    body{
+        background-color: #8D9EFF;
+        height: 900px;
+    }
+    .hidden-lr{
+        display: none;
+    }
+    .flex-d-column-lr{
+        flex-direction: column;
+    }
+    .gap-lr{
+        gap: 10px 20px;
+    }
+    .f-1-lr{
+        flex: 1;
+    }
+    .f-2-lr{
+        flex: 2;
+    }
+    .f-3-lr{
+        flex: 3;
+    }
+    .f-4-lr{
+        flex: 4;
+    }
+    .d-flex-lr{
+        display: flex;
+    }
+    .j-center-lr{
+        justify-content: center;
+    }
+    .a-center-lr{
+        align-items: center;
+    }
+    .order-2-lr{
+        order: 2;
+    }
+}
+

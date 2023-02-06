@@ -1,0 +1,75 @@
+.toolbar {
+    /*width: 100%;*/
+    /*height: 50px;*/
+    /*text-align: center;*/
+    padding: 20px;
+    background-color: #B2B2B2;
+    display: inline-block;
+}
+.toolbar div{
+    box-sizing: border-box;
+}
+.home{
+    width: 100px;
+    height: 40px;
+    margin: 50px 50px 0 0;
+    text-align: center;
+    background-color: #9E7676;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.home:hover{
+    background-color: #f6ef7f;
+    cursor: pointer; /*** pakeicia pelytes isvaizda uzejus ant elemento ***/
+}
+.play{
+    width: 100px;
+    height: 40px;
+    margin: 50px 50px 0 0;
+    text-align: center;
+    background-color: #9E7676;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.play:hover{
+    height: 60px;
+    transform:scale(1.5%); /*** pakeicia dydi objekto ***/
+}
+.shop{
+    width: 100px;
+    height: 40px;
+    margin: 50px 50px 0 0;
+    text-align: center;
+    background-color: #9E7676;
+    box-sizing: border-box;
+    display: inline-block;
+    transition: 5s;
+}
+.shop:hover{
+    background-color: #4FA095;
+    height: 100px;
+}
+.explore{
+    width: 100px;
+    height: 40px;
+    margin: 50px 50px 0 0;
+    text-align: center;
+    background-color: #9E7676;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.explore:hover{
+    font-size: 20px;
+}
+.help{
+    width: 100px;
+    height: 40px;
+    margin: 50px 50px 0 0;
+    text-align: center;
+    background-color: #9E7676;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.help:hover{
+    font-family: "Engravers MT";
+}

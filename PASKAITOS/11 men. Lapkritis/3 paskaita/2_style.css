@@ -1,0 +1,50 @@
+/*** POSITION ABSOLUTE ***/
+.box11{
+    width: 200px;
+    height: 200px;
+    position: absolute; /*** nustato vieta nepriklausomai nuo kitu elementu ***/
+    background-color: #FEBE8C;
+    left: 100px;
+    top: 100px;
+}
+.box22{
+    width: 200px;
+    height: 200px;
+    background-color: #F7A4A4;
+}
+.box33 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: #9E7676;
+    left: 200px;
+    top: 200px;
+}
+
+.transparent{
+    height: 250px;
+}
+
+/*** Z INDEKSAS ***/
+/*** jis nurodo kuris yra pirmas kuris antras kuo jis aukstesnis tuo auksciau pries kitus jis yra (jis veikia ir su minusianiais skaiciais)***/
+
+
+/***  ELEMENTO STUMDYMAS NE PER VISA EKRANA O DIV VIDUJE ***/
+
+.blok{
+    position: relative; /*** viduje easantis div'as (jeugu jis yra position-absolute) tampa priklausomas ne nuo body dalies, bet div'o kuriame jis yra (stumdomas div'o viduje, o ne per visa ekrana) "relative" dedamas ant tevinio div'o ***/
+    height: 500px;
+    width: 500px;
+    margin: 100px;
+    background-color: #FEBE8C;
+}
+.box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: #fd9035;
+
+
+}

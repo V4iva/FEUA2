@@ -1,0 +1,87 @@
+.d-flex{
+    display: flex;
+}
+.flexd-column{
+    flex-direction: column;
+}
+.justif-center{
+    justify-content: center;
+}
+.justif-spc-btw{
+    justify-content: space-between;
+}
+.justif-spc-around{
+    justify-content: space-around;
+}
+.justif-spc-evenly{
+    justify-content: space-evenly;
+}
+.flexd-row{
+    flex-direction: row;
+}
+.al-it-cent{
+    align-items: center;
+}
+.justif-right{
+    justify-content: right;
+}
+.p10{
+    padding: 10px;
+}
+.bord{
+    border: 1px solid black;
+}
+.mar-20{
+    margin: 20px;
+}
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+
+
+/*** justify lygiuoja per horizontale
+align per vertikale ***/
+
+/*****************************/
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: #B2B2B2;
+}
+.container div{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: #4FA095;
+}
+.box1{
+    height: 100px;
+}
+.box2{
+    height: 70px;
+}
+.box3{
+    height: 50px;
+}
+.box4{
+    height: 30px;
+}
+.box6{
+    height: 10px;
+}
+
+
+/*****************************/
+
+.container2{
+    height: 500px;
+    width: 500px;
+    background-color: #B2B2B2;
+}

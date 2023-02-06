@@ -1,0 +1,80 @@
+.d-flex{
+    display: flex;
+}
+.flexd-column{
+    flex-direction: column;
+}
+.justif-center{
+    justify-content: center;
+}
+.justif-spc-btw{
+    justify-content: space-between;
+}
+.justif-spc-around{
+    justify-content: space-around;
+}
+.justif-spc-evenly{
+    justify-content: space-evenly;
+}
+.flexd-row{
+    flex-direction: row;
+}
+.al-cent{
+    align-items: center;
+}
+.justif-right{
+    justify-content: right;
+}
+.p10{
+    padding: 10px;
+}
+.bord{
+    border: 1px solid black;
+}
+.mar-20{
+    margin: 20px;
+}
+/*****************************/
+
+.container{
+    height: 900px;
+}
+.box{
+    height: 700px;
+    width: 300px;
+}
+.cube{
+    height: 50%;
+    width: 90%;
+}
+.ract{
+    height: 100%;
+    width: 40%;
+}
+
+
+.box1{
+    height: 500px;
+    width: 300px;
+}
+.cub{
+    width: 30px;
+    height: 30px;
+}
+.stat{
+    height: 30px;
+    width: 80%;
+}
+
+
+.box2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+.box3{
+    height: 100px;
+    width: 700px;
+}

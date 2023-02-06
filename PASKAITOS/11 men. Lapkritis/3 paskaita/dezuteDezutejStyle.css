@@ -1,0 +1,27 @@
+.box{
+    width: 90%;
+    height: 700px;
+    border: 3px solid black;
+}
+.inside {
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+    padding: 20px;
+    margin: auto;
+    margin-top: 29px;
+
+}
+img{
+    width: 590px;
+    height: 300px;
+    margin: auto;
+}
+p{
+    display: inline-block;
+    width: 48%;
+    border: 3px solid black;
+    vertical-align: top;
+    box-sizing: content-box;
+    text-align: center;
+}

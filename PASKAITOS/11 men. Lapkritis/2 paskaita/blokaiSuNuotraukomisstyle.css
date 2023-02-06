@@ -1,0 +1,38 @@
+.block{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+}
+.valhalla{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+.i-block{
+    display: inline-block;
+
+}
+.v-align{
+    vertical-align: top;
+}
+.box{
+    width: 49%;
+}
+
+button{
+    margin-top: 334px;
+    display: inline-block;
+}
+
+.foto{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    align-items: center;
+}
+.four{
+    width: 190px;
+    /*height: 300px;*/
+    display: inline-block;
+    vertical-align: top
+}

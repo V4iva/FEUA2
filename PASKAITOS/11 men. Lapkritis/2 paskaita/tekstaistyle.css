@@ -1,0 +1,22 @@
+.sidebar{
+    background-color: lightgray;
+    width: 100px;
+    height: 100%;
+    margin: 5px;
+}
+button{
+    margin: 30px;
+    padding: 10px;
+}
+.middle{
+    background-color: lightgray;
+    height: 20%;
+    display: inline-block;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+}
+.text{
+    background-color: lightgray;
+}

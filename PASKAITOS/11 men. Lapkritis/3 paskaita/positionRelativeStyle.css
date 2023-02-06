@@ -1,0 +1,39 @@
+.box{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 50px 0 0 50px;
+    position: relative;
+    background-color: #FEBE8C;
+}
+.circle{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    left: 380px;
+    top: 40px;
+    background-color: #F7A4A4;
+}
+.circle1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    right: 380px;
+    bottom: 40px;;
+    background-color: #F7A4A4;
+
+}
+.box1{
+    width: 500px;
+    height: 70px;
+    border: 2px solid black;
+    position: absolute;
+    left: 450px;
+    top: 300px;
+    background-color: #9E7676;
+}

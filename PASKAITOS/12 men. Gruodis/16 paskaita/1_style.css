@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    height: 470px;
+    gap: 50px;
+}
+
+.gridContainer{
+    border: 1px solid black;
+    grid-area: first;
+    display: grid;
+    height: 440px;
+    width: 45%;
+    grid-gap: 5px;
+    grid-template-columns: auto 60%;
+    grid-template-rows: 10% auto auto;
+    grid-template-areas:
+    "toolbar toolbar"
+    "list header"
+    "list footer";
+}
+.gridContainer .itemA{
+    background: #4FA095;
+    grid-area: toolbar;
+}
+.gridContainer .itemB{
+    background: #8EC3B0;
+    grid-area: list;
+}
+.gridContainer .itemC{
+    background: #3A8891;
+    grid-area: header;
+}
+.gridContainer .itemD{
+    background: #67D295;
+    grid-area: footer;
+}
+
+
+.gridContainer1{
+    border: 1px solid black;
+    grid-area: first;
+    display: grid;
+    height: 440px;
+    width: 45%;
+    grid-gap: 5px;
+    grid-template-columns: auto 60%;
+    grid-template-rows: 40% auto auto;
+    grid-template-areas:
+    "list toolbar toolbar"
+    "list header footer"
+    "list header footer";
+}
+.gridContainer1 .itemA{
+    background: #4FA095;
+    grid-area: toolbar;
+}
+.gridContainer1 .itemB{
+    background: #8EC3B0;
+    grid-area: list;
+}
+.gridContainer1 .itemC{
+    background: #3A8891;
+    grid-area: header;
+}
+.gridContainer1 .itemD{
+    background: #67D295;
+    grid-area: footer;
+}
+
+.gridContainer2{
+    border: 1px solid black;
+    grid-area: first;
+    display: grid;
+    height: 440px;
+    width: 45%;
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto 15%;
+    grid-template-rows: 10% auto auto;
+    grid-template-areas:
+    "toolbar toolbar toolbar toolbar"
+    "list list footer epic"
+    "header header footer epic";
+}
+.gridContainer2 .itemA{
+    background: #4FA095;
+    grid-area: toolbar;
+}
+.gridContainer2 .itemB{
+    background: #8EC3B0;
+    grid-area: list;
+}
+.gridContainer2 .itemC{
+    background: #3A8891;
+    grid-area: header;
+}
+.gridContainer2 .itemD{
+    background: #67D295;
+    grid-area: footer;
+}
+.gridContainer2 .itemE{
+    background: #22776b;
+    grid-area: epic;
+}
+
+.gridContainer3{
+    border: 1px solid black;
+    grid-area: first;
+    display: grid;
+    height: 440px;
+    width: 45%;
+    grid-gap: 5px;
+    grid-template-columns: 20% auto 15%;
+    grid-template-rows:  auto auto 20%;
+    grid-template-areas:
+    "toolbar header epic"
+    "toolbar list  epic"
+    "toolbar footer footer";
+}
+.gridContainer3 .itemA{
+    background: #4FA095;
+    grid-area: toolbar;
+}
+.gridContainer3 .itemB{
+    background: #8EC3B0;
+    grid-area: list;
+}
+.gridContainer3 .itemC{
+    background: #3A8891;
+    grid-area: header;
+}
+.gridContainer3 .itemD{
+    background: #67D295;
+    grid-area: footer;
+}
+.gridContainer3 .itemE{
+    background: #22776b;
+    grid-area: epic;
+}

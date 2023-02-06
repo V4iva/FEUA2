@@ -1,0 +1,200 @@
+/*------------------- GREITOSIOS FORMULES -----------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.gap{
+    gap: 10px 20px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+.flex-d-column{
+    flex-direction: column;
+}
+.flex-d-row{
+    flex-direction: row;
+}
+
+/*** Juustify Content ***/
+
+.j-center{
+    justify-content: center;
+}
+.j-right{
+    justify-content: right;
+}
+.j-left{
+    justify-content: left;
+}
+.j-spc-btw{
+    justify-content: space-between;
+}
+.j-spc-around{
+    justify-content: space-around;
+}
+.j-spc-evenly{
+    justify-content: space-evenly;
+}
+/*** Flex (Grow) vietos paskirstymas ***/
+
+.f-1{
+    flex: 1;
+}
+.f-2{
+    flex: 2;
+}
+.f-3{
+    flex: 3;
+}
+.f-4{
+    flex: 4;
+}
+.f-5{
+    flex: 5;
+}
+.f-6{
+    flex: 6;
+}
+
+
+.a-center{
+    align-items: center;
+}
+.a-end{
+    align-items: end;
+}
+.a-start{
+    align-items: start;
+}
+
+
+.p10{
+    padding: 10px;
+}
+.border{
+    border: 1px solid black;
+}
+.mar-20{
+    margin: 20px;
+}
+.mar-left-20{
+    margin-left: 20px;
+}
+.mar-right-20{
+    margin-right: 20px;
+}
+.mar-top-20{
+    margin-top: 20px;
+}
+.mar{
+    margin: 20px 20px 0 20px;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+
+
+.txt-center{
+    text-align: center;
+}
+/*** Order (poziciju keitimas) ***/
+
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+
+/*** Small ekranas ***/
+
+
+/*-------------------------------------------------------------------------*/
+body{
+    height: 900px;
+}
+.menu-button{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.container2{
+    background-image: url("../../../img/portrait-wallpaper-1920x1080.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.container2 h1, p{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+.container3 div{
+    height: 100%;
+}
+.container3 i{
+    font-size: 40px;
+}
+.box2 img {
+    width: 50%;
+    height: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .menu-button{
+        display: block;
+    }
+    .container a{
+        display: none;
+    }
+    .container2{
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .container3{
+        flex-direction: column;
+    }
+    .box1{
+        flex-direction: row;
+    }
+    .box1 i{
+        padding: 0 20px;
+        justify-content: space-evenly;
+    }
+    .box3 p, img{
+        width: auto;
+        height: auto;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .d-flex-sm{
+        display: flex;
+    }
+    .gap-sm{
+        gap: 10px 20px;
+    }
+    .order-2-small{
+        order: 2;
+    }
+    .order-3-small{
+        order: 3;
+    }
+}

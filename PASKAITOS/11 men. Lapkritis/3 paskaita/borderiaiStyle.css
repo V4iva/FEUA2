@@ -1,0 +1,74 @@
+/* PIRMAS BLOKAS */
+.one{
+    width: 25%;
+    height: 800px;
+    display: inline-block;
+    background-color: #594545;
+    border: 3px solid black;
+
+}
+.inside{
+    background-color: #815B5B;
+    vertical-align: center;
+    width: 85%;
+    height: 80%;
+    margin: 20px;
+    border: 3px solid #FFF8EA;
+}
+.circle{
+    background-color: #9E7676;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    vertical-align: middle;
+    border: 3px solid #FFF8EA;
+    margin-top: 200px;
+}
+
+/* ANTRAS BLOKAS */
+.two{
+    width: 48%;
+    height: 800px;
+    display: inline-block;
+    background-color: #594545;
+    border: 3px solid black;
+}
+.insd{
+    background-color: #815B5B;
+    vertical-align: center;
+    width: 90%;
+    height: 187px;
+    margin: 30px;
+    border: 3px solid #FFF8EA;
+}
+.circle2{
+    background-color: #9E7676;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    vertical-align: middle;
+    border: 3px solid #FFF8EA;
+    margin-top: 15px;
+}
+
+/* TRECIAS BLOKAS */
+.three{
+    width: 25%;
+    height: 800px;
+    display: inline-block;
+    background-color: #594545;
+    border: 3px solid black;
+
+}
+.rounded{
+    background-color: #815B5B;
+    vertical-align: center;
+    width: 80%;
+    height: 80%;
+    margin: 30px;
+    border-radius: 20px;
+    border: 3px solid #FFF8EA;
+    margin-top: 30px;
+}

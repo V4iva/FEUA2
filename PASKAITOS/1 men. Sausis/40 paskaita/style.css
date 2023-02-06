@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid darkgrey;
+}
+.d-flex{
+    display: flex;
+}
+.gap{
+    gap: 10px;
+}
+.j-center{
+    justify-content: center;
+}
+.a-center{
+    align-items: center;
+}
+.p10{
+    padding: 30px;
+}
+.txt-center{
+    text-align: center;
+}
+.flex-d-column{
+    flex-direction: column;
+}
+.flex-d-row{
+    flex-direction: row;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+/*** Flex (Grow) vietos paskirstymas ***/
+
+.f-1{
+    flex: 1;
+}
+.f-2{
+    flex: 2;
+}
+.f-3{
+    flex: 3;
+}
+.f-4{
+    flex: 4;
+}
+.f-5{
+    flex: 5;
+}
+.f-6{
+    flex: 6;
+}
+/*************************************/
+.box{
+    width: 200px;
+    height: 200px;
+}
+img{
+    width: 100%;
+}
+.invalid{
+    border: 2px solid red;
+}

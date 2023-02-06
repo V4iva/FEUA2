@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, #061de3, #e306ca);
+    font-family: Helvetica, sans-serif;
+    color: rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.container{
+    padding-top: 50px;
+    width: 350px;
+    height: 500px;
+}
+.container:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+    perspective: 800px;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front{
+    background-image: url(https://source.unsplash.com/random/350x500);
+}
+.back{
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+}
+
+
+
+/*.box {*/
+/*    position: relative;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border: 1px solid black;*/
+/*    margin: 25px;*/
+/*    transform-style: preserve-3d;*/
+/*    transition: all 0.5s ease;*/
+/*    background-color: white;*/
+
+/*}*/
+
+
+
+/*.front{*/
+/*    position: absolute;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    backface-visibility: hidden;*/
+/*    transform: rotateY(180deg);*/
+
+
+/*}*/
+
+/*.back{*/
+/*    position: absolute;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    backface-visibility: hidden;*/
+/*    transform: rotateY(180deg);*/
+/*}*/
+
+
+/*************************************************/
+
+.container1{
+    width: 350px;
+    height: 500px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px ;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

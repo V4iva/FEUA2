@@ -1,0 +1,117 @@
+body{
+    display: flex;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: #4FA095;
+    position: absolute;
+
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.box2{
+    width: 50px;
+    height: 50px;
+    background: #4FA095;
+    border-radius: 50%;
+    position: absolute;
+
+
+    animation-name: anim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.box3{
+    width: 100px;
+    height: 50px;
+    background: #4FA095;
+    position: absolute;
+
+    animation-name: anim3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+
+
+@keyframes anim {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        left: 400px;
+        top: 0;
+    }
+    50%{
+        left: 400px;
+        top: 400px;
+    }
+    100%{
+        left: 0;
+        top: 400px;
+    }
+}
+@keyframes anim2 {
+    0%{
+        left: 0;
+        width: 50px;
+        height: 50px;
+    }
+    25%{
+        /*left: 20%;*/
+        width: 150px;
+        height: 150px;
+    }
+    50%{
+        /*left: 40%;*/
+        width: 200px;
+        height: 200px;
+    }
+    75%{
+        left: 50%;
+        width: 150px;
+        height: 150px;
+    }
+    100%{
+        left: 450px;
+        width: 50px;
+        height: 50px;
+    }
+}
+@keyframes anim3 {
+    0%{
+        left: 0;
+        background: lightpink;
+    }
+    25%{
+        left: 130px;
+        background: indianred;
+    }
+    50%{
+        left: 255px;
+        background: mediumpurple;
+    }
+    100%{
+        left: 400px;
+        background: cornflowerblue;
+    }
+}

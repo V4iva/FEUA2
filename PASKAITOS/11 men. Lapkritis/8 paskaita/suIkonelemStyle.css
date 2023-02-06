@@ -1,0 +1,126 @@
+/*------------------- GREITOSIOS FORMULES -----------------------------------*/
+
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+.d-flex{
+    display: flex;
+}
+
+.gap{
+    gap: 10px 20px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+.flex-d-column{
+    flex-direction: column;
+}
+.flex-d-row{
+    flex-direction: row;
+}
+
+
+.j-center{
+    justify-content: center;
+}
+.j-right{
+    justify-content: right;
+}
+.j-spc-btw{
+    justify-content: space-between;
+}
+.j-spc-around{
+    justify-content: space-around;
+}
+.j-spc-evenly{
+    justify-content: space-evenly;
+}
+
+.f-1{
+    flex: 1;
+}
+.f-2{
+    flex: 2;
+}
+.f-3{
+    flex: 3;
+}
+.f-4{
+    flex: 4;
+}
+.f-5{
+    flex: 5;
+}
+.f-6{
+    flex: 6;
+}
+
+
+.a-center{
+    align-items: center;
+}
+.a-end{
+    align-items: end;
+}
+.a-start{
+    align-items: start;
+}
+
+
+.p10{
+    padding: 10px;
+}
+.border{
+    border: 1px solid black;
+}
+.mar-20{
+    margin: 20px;
+}
+.mar-left-20{
+    margin-left: 20px;
+}
+.mar-right-20{
+    margin-right: 20px;
+}
+.mar-top-20{
+    margin-top: 20px;
+}
+.mar{
+    margin: 20px 20px 0 20px;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+
+
+.txt-center{
+    text-align: center;
+}
+/*-------------------------------------------------------------------------*/
+
+
+.container {
+    width: 100%;
+    height: 900px;
+}
+.container i{
+    font-size: 50px;
+    color: rgb(43,96,78);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.box{
+    width: 590px;
+}

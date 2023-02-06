@@ -1,0 +1,14 @@
+*{
+   box-sizing: border-box;
+}
+body{
+    padding: 50px;
+}
+.container{
+    margin-bottom: 50px;
+}
+.border{
+    padding: 50px;
+    background: darkgrey;
+    border: 1px solid black;
+}

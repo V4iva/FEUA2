@@ -1,0 +1,88 @@
+.box{
+    width: 30%;
+    height: 500px;
+    background: linear-gradient(90deg, rgba(237,246,89,1) 0%, rgba(250,148,5,1) 100%);
+    display: inline-block;
+    margin-top: 100px;
+    padding: 30px;
+    vertical-align: top;
+}
+.text{
+    margin: auto;
+    text-align: center;
+    margin-top: 190px;
+}
+.box1{
+    width: 30%;
+    height: 500px;
+    background-color: #B2B2B2;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 30px;
+    vertical-align: top;
+    background-image: url("https://static.truetrophies.com/seriescovers/GameGroup_41.jpg");
+    background-position: left;
+    background-size: cover;
+}
+.text1{
+    margin: auto;
+    text-align: center;
+}
+.box2{
+    width: 22%;
+    height: 650px;
+    background-color: #f6ef7f;
+    display: inline-block;
+    /*margin-top: 50px;*/
+    padding: 30px;
+}
+button{
+    background-color: #f8ee22;
+    justify-content: center;
+    width: 80%;
+    height: 50px;
+    margin: 100px 0 0 25px;
+    transition: 3s;
+}
+button:hover{
+    background-color: #fc662a;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Chiller;
+    cursor: pointer;
+}
+.circle{
+    position: absolute;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 110px;
+}
+.circle1{
+    position: absolute;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 600px;
+    left: 470px;
+}
+.circle2{
+    position: absolute;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 640px;
+    left: 1005px;
+}
+.circle3{
+    position: absolute;
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 70px;
+    left: 995px;
+}

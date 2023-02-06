@@ -1,0 +1,60 @@
+.d-flex{
+    display: flex;
+}
+.flexd-column{
+    flex-direction: column;
+}
+.justif-center{
+    justify-content: center;
+}
+.justif-spc-btw{
+    justify-content: space-between;
+}
+.justif-spc-around{
+    justify-content: space-around;
+}
+.justif-spc-evenly{
+    justify-content: space-evenly;
+}
+.flexd-row{
+    flex-direction: row;
+}
+.al-it-cent{
+    align-items: center;
+}
+.justif-right{
+    justify-content: right;
+}
+.p10{
+    padding: 10px;
+}
+
+
+/*****************************/
+
+.toolbar{
+    padding: 10px;
+}
+.header{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+}
+.info{
+    width: 100%;
+    height: 25%;
+}
+.content{
+    height: 600px;
+}
+.bars1{
+
+}
+.cont{
+    height: 250px;
+    width: 200px;
+    background-color: #B2B2B2;
+}
+.card{
+    width: 100%;
+}

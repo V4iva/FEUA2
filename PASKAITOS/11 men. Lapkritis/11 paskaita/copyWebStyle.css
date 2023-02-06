@@ -1,0 +1,451 @@
+/*------------------- GREITOSIOS FORMULES -----------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.gap{
+    gap: 10px 20px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+.flex-d-column{
+    flex-direction: column;
+}
+.flex-d-row{
+    flex-direction: row;
+}
+
+/*** Juustify Content ***/
+
+.j-center{
+    justify-content: center;
+}
+.j-right{
+    justify-content: right;
+}
+.j-left{
+    justify-content: left;
+}
+.j-spc-btw{
+    justify-content: space-between;
+}
+.j-spc-around{
+    justify-content: space-around;
+}
+.j-spc-evenly{
+    justify-content: space-evenly;
+}
+/*** Flex (Grow) vietos paskirstymas ***/
+
+.f-1{
+    flex: 1;
+}
+.f-2{
+    flex: 2;
+}
+.f-3{
+    flex: 3;
+}
+.f-4{
+    flex: 4;
+}
+.f-5{
+    flex: 5;
+}
+.f-6{
+    flex: 6;
+}
+
+
+.a-center{
+    align-items: center;
+}
+.a-end{
+    align-items: end;
+}
+.a-start{
+    align-items: start;
+}
+
+
+.p10{
+    padding: 10px;
+}
+.p-left10{
+    padding-left: 10px;
+}
+.border{
+    border: 1px solid black;
+}
+.mar-20{
+    margin: 20px;
+}
+.mar-left-20{
+    margin-left: 20px;
+}
+.mar-right-20{
+    margin-right: 20px;
+}
+.mar-top-20{
+    margin-top: 20px;
+}
+.mar{
+    margin: 20px 20px 0 20px;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+
+
+.txt-center{
+    text-align: center;
+}
+/*** Order (poziciju keitimas) ***/
+
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+
+/*** Small ekranas ***/
+
+
+/*-------------------------------------------------------------------------*/
+
+
+
+
+
+/* toolbar */
+span{
+    color: rgb(148, 199, 69);
+}
+.span{
+    color: rgb(239, 170, 65);
+}
+
+
+
+.toolbar{
+    background-color: #282828;
+    color: white;
+    font-size: 25px;
+}
+.toolbar a{
+    background-color: rgb(148, 199, 69);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 17px
+}
+.toolbar p:hover{
+    cursor: pointer;
+}
+.toolbar i, a:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* headeris */
+
+.header{
+    padding: 30px 200px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.header h1{
+    font-size: 80px;
+    padding: 110px 0 140px;
+    width: 650px;
+}
+
+/* recent photos */
+
+.recents{
+    padding: 80px 200px;
+    background-color: #f2f3e8;
+    font-size: 30px;
+}
+.recents p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+div{
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
+h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.recents2{
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+.paveik{
+    width: 100%;
+}
+.pav{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.prevNext p{
+    font-size: 17px;
+    text-decoration: underline;
+}
+.prevNext{
+    font-size: 17px;
+}
+
+/* top authors */
+
+.topAuthors{
+    padding: 80px 200px;
+    background-color: white;
+    font-size: 30px;
+}
+.topAuthors div:hover{
+    opacity: 0.75;
+}
+.authors{
+    width: 350px;
+    height: 150px;
+    padding: 16px;
+    background-color: #f2f3e8;
+    font-size: 20px;
+    margin: 35px 0;
+}
+.topAuthors p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.authors img{
+    width: 35%;
+    height: 100%;
+}
+
+/* featured */
+
+.featured{
+    padding: 80px 200px;
+    background-color: #f2f3e8;
+    font-size: 30px;
+}
+.featured p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* post of the month */
+
+.postMonth{
+    background-image: url("https://platol.netlify.app/tushi/assets/images/blog/08.webp");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.post{
+    width: 250px;
+    margin: 50px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.postMonth h3{
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+
+/* subscribe */
+
+.subscribe{
+    padding: 30px 200px;
+    height: 250px;
+    margin: 50px 0;
+}
+.box{
+    width: 30%;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+.subscribe button{
+    width: 360px;
+    height: 50px;
+    background-color: #eaeaea;
+    border: 1px solid darkgrey;
+    color: darkgrey;
+    text-align: left;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.sub:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+/* footer */
+
+.footer{
+    border: 1px solid darkgrey;
+    height: 100px;
+    font-size: 20px;
+}
+.footer p:hover{
+    text-decoration: underline;
+}
+.footer i:hover{
+    cursor: pointer;
+}
+.header i{
+    font-size: 30px;
+}
+
+
+/*** MAZAS ***/
+@media only screen and (max-width: 700px){
+    .hiden-sm{
+        display: none;
+    }
+    hiden{
+        display: block;
+    }
+    .header h1{
+        font-size: 45px;
+    }
+    .recents{
+        margin: 0px;
+        padding: 20px;
+    }
+    .rec{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 50px;
+        align-items: center;
+    }
+    .topAuthors{
+        margin: 0px;
+        padding: 20px;
+    }
+    .aut{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 50px;
+        align-items: center;
+    }
+    .authors{
+        width: 100%;
+    }
+    .featured{
+        margin: 0px;
+        padding: 20px;
+    }
+    .feat{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 50px;
+        align-items: center;
+    }
+    .order3sm{
+        order: 3;
+    }
+    .postMonth h3{
+        font-size: 40px;
+        width: 80%;
+    }
+    .subscribe{
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+    }
+    .box {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 50px 50px 0px 50px;
+        align-items: center;
+        text-align: center;
+    }
+    .box1{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0px 50px 50px 50px;
+        align-items: center;
+        text-align: center;
+    }
+    .footer{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 50px;
+        align-items: center;
+    }
+    .footer i{
+        padding-top: 20px;
+    }
+}
+
+/*** VIDUTINIS ***/
+@media (min-width: 700px) and (max-width: 1000px) {
+    .hiden{
+        display: none;
+        position: relative;
+        top: -100px;
+    }
+}
+
+/*** DIDELIS ***/
+@media only screen and (min-width: 1000px){
+    .hiden{
+        display: none;
+        position: relative;
+        top: -100px;
+    }
+    .d-flex-large{
+        display: flex;
+    }
+    .j-spc-btw-large{
+        justify-content: space-between;
+    }
+    .a-center-large{
+        align-items: center;
+    }
+}

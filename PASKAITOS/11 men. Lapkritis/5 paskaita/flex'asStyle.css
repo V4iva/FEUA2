@@ -1,0 +1,150 @@
+.d-flex{
+    display: flex;
+}
+.flexd-column{
+    flex-direction: column;
+}
+.justif-center{
+    justify-content: center;
+}
+.justif-spc-btw{
+    justify-content: space-between;
+}
+.justif-spc-around{
+    justify-content: space-around;
+}
+.justif-spc-evenly{
+    justify-content: space-evenly;
+}
+.flexd-row{
+    flex-direction: row;
+}
+.al-it-cent{
+    align-items: center;
+}
+.justif-right{
+    justify-content: right;
+}
+
+
+
+/*****************************/
+
+.first{
+    height: 900px;
+}
+
+/******/
+.cont{
+    height: 100px;
+    background-color: #863A6F;
+    padding: 20px;
+}
+.box{
+    width: 100%;
+    height: 30%;
+    background-color: #975C8D;
+    padding: 1px;
+}
+
+
+/******/
+.cont1{
+    height: 100%;
+    padding: 20px;
+}
+
+
+.box1{
+    height: 90%;
+    width: 300px;
+    padding: 20px;
+    background-color: #863A6F;
+}
+.box-inbox{
+    width: 100%;
+    height: 6%;
+    background-color: #975C8D;
+}
+.box-inbox1{
+    width: 100%;
+    height: 50%;
+}
+.inbox{
+    height: 100%;
+    width: 10%;
+    background-color: #975C8D;
+}
+
+
+.box2{
+    height: 90%;
+    width: 200px;
+    padding: 20px;
+}
+.circle{
+    width: 100%;
+    height: 30%;
+    background-color: #863A6F;
+    border-radius: 50%;
+}
+.inside{
+    background-color: #975C8D;
+    width: 100px;
+    height: 15%;
+}
+.inside1{
+    background-color: #975C8D;
+    width: 15%;
+    height: 60%;
+}
+
+
+.box3{
+    height: 90%;
+    width: 300px;
+    padding: 20px;
+    background-color: #863A6F;
+}
+.in-box{
+    height: 100%;
+    width: 10%;
+    background-color: #975C8D;
+}
+.in-box1{
+    height: 100%;
+    width: 65%;
+}
+.inin-box{
+    width: 100%;
+    height: 6%;
+    background-color: #975C8D;
+}
+.inin-box1{
+    width: 100%;
+    height: 70%;
+}
+.stand{
+    height: 100%;
+    width: 15%;
+    background-color: #975C8D;
+}
+
+
+
+/*******/
+.cont3{
+    height: 100px;
+    background-color: #863A6F;
+    padding: 20px;
+}
+.vertical{
+    width: 20%;
+    height: 100%;
+}
+.vrtcl{
+    height: 100%;
+    width: 7%;
+    background-color: #975C8D;
+    margin: 6px;
+}

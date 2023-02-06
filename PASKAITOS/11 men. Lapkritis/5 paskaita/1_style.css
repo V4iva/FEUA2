@@ -1,0 +1,28 @@
+.container{
+    height: 500px;
+    width: 900px;
+    background-color: #B2B2B2;
+    font-family: monospace;
+    font-size: 50px;
+
+    display: flex; /*** padaro kad vaikiniai elementai eitu is eiles (konteinerio erdveje paskirsto erdves elementams) visus elementus padaro vienodus (blokinius ir inline) ***/
+    flex-direction: column; /*** galima pakeistikrypti flex elementu ***/
+    justify-content: center; /*** jeigu norime sulygiuoti viduje esancius elementus ( space-between: iskirsto elementus tarpais)***/
+
+}
+.box1{
+    padding: 20px;
+    background-color: #4FA095;
+}
+.box2{
+    padding: 20px;
+    background-color: #FEBE8C;
+}
+.box3{
+    padding: 20px;
+    background-color: #659120;
+}
+.box4{
+    padding: 20px;
+    background-color: #d79c14;
+}
