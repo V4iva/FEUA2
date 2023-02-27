@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid darkgrey;
+}
+.d-flex{
+    display: flex;
+}
+.gap{
+    gap: 10px;
+}
+.j-center{
+    justify-content: center;
+}
+.j-spc-btw{
+    justify-content: space-between;
+}
+.j-spc-around{
+    justify-content: space-around;
+}
+.j-spc-evenly{
+    justify-content: space-evenly;
+}
+.a-center{
+    align-items: center;
+}
+.a-start{
+    align-items: start;
+}
+.j-start{
+    justify-content: start;
+}
+
+.p10{
+    padding: 30px;
+}
+.txt-center{
+    text-align: center;
+}
+.flex-d-column{
+    flex-direction: column;
+}
+.flex-d-row{
+    flex-direction: row;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.box{
+    width: 250px;
+    height: 250px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background: black;
+    color: grey;
+}
+
+/*** Flex (Grow) vietos paskirstymas ***/
+
+.f-1{
+    flex: 1;
+}
+.f-2{
+    flex: 2;
+}
+.f-3{
+    flex: 3;
+}
+.f-4{
+    flex: 4;
+}
+.f-5{
+    flex: 5;
+}
+.f-6{
+    flex: 6;
+}
+.male{
+    background-color: #1e9bff;
+}
+.female{
+    background-color: lightpink;
+}
+.invalid{
+    border: 2px solid red;
+}
+.ov-hidden{
+    overflow: hidden;
+}
+
+/*************************************/
+body{
+    background: url("https://images8.alphacoders.com/680/680254.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.toolbar{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.building2{
+    width: 70%;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+}
+.building img {
+    width: 200px;
+    height: 200px;
+}
+.building{
+    width: 100%;
+    max-height: 200px;
+}
+.name{
+    background: rgba(119, 119, 119, 0.7);
+    width: 200px;
+    text-align: center;
+}
+.building button {
+    background: rgba(119, 119, 119, 0.7);
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    padding: 5px;
+    color: white;
+}
+.shop{
+    width: 30%;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.shop img {
+    width: 130px;
+    border-radius: 10px;
+}
+.shop div div{
+    background: rgba(119, 119, 119, 0.7);
+    height: 100%;
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+.display {
+    display: none;
+}
